@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "btfollow"
+version = "0.1.0"
+description = "A simple tool to sync multi-device keyboard with a standard mouse"
+authors = "Nahuel Defosse <nahuel.defosse+pypi@protonmail.com>"
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+click = "^7.0"
+sh = "^1.12"
+appdirs = "^1.4"
+toml = "^0.10.0"
+voluptuous = "^0.11.5"
+loguru = "^0.2.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+hunter = "^2.2"
+ipython = "^7.2"
+black = {version = "^18.3-alpha.0",allows-prereleases = true}
+pdbpp = "^0.9.6"
+flake8 = "^3.7"
+mypy = "^0.670.0"
+bandit = "^1.5"
+
+[tool.poetry.scripts]
+btfollow = 'btfollow.cli:main'
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
