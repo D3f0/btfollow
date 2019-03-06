@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "btfollow"
-version = "0.1.0"
+version = "0.1.1"
 description = "A simple tool to sync multi-device keyboard with a standard mouse"
 authors = "Nahuel Defosse <nahuel.defosse+pypi@protonmail.com>"
 homepage = "https://github.com/D3f0/btfollow"
